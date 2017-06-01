@@ -2,7 +2,7 @@
 <?php require_once('functions.php'); ?>
 <head>
     <meta charset="utf-8">
-    <title>Record copying prototype | The National Archives</title>
+    <title>ALAN TURING WARTIME RESEARCH PAPERS RELEASED BY GCHQ | The National Archives</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="initial-scale=1.0">
     <!-- main.min.3.3.css is the stylesheet taken from Discovery Version 3.3 -->
