@@ -17,15 +17,6 @@ $(function () { // All content must be placed within this IIFE.
     $.polyfillPlaceholder({ targetElement: '#tnaSearch' });
     $.polyfillPlaceholder({ targetElement: '#query' });
 
-    // Search expander
-    $('<span>', {
-        html: "&nbsp;",
-        id: "search-expander"
-    }).css({
-        position: "absolute",
-        right: "5px"
-    }).appendTo('#logo-holder');
-
     // Cookie notification
     if (!tnaCheckForThisCookie("dontShowCookieNotice")) {
         $('<div class="cookieNotice">We use cookies to improve services and ensure they work for you. Read our <a href="http://www.nationalarchives.gov.uk/legal/cookies.htm">cookie policy</a>. <a href="#" id="cookieCutter">Close</a></div>').css({
