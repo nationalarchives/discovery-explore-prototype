@@ -6,6 +6,10 @@
             <?php include('asset-details.php') ?>
             <?php include('image-viewer.php') ?>
         </div>
+        <div class="separator-illusion">&nbsp</div>
+        <div class="breather">
+            <?php include('tagging.php') ?>
+        </div>
     </div>
     <div class="col starts-at-full ends-at-one-third clr holding-box">
         <?php include('delivery-option.php') ?>

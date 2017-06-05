@@ -1033,7 +1033,7 @@ p {
 }
 
 div.general-tag-list-item span.flagTag a {
-    background: url(../images/flag.png) center center no-repeat;
+    background: url(http://discovery.nationalarchives.gov.uk/Content/images/flag.png) center center no-repeat;
     color: transparent;
     display: inline-block;
     max-width: 1em;
