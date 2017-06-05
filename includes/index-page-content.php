@@ -1,8 +1,11 @@
 <section class="row">
-    <div class="col starts-at-full clr holding-box">
+    <div class="col starts-at-full ends-at-two-thirds clr holding-box">
         <div class="breather">
             <h1 class="inline"><?= $record['title'] ?></h1>
             <p>[Page content]</p>
         </div>
+    </div>
+    <div class="col starts-at-full ends-at-one-third clr holding-box">
+        <?php include('delivery-option.php') ?>
     </div>
 </section>
