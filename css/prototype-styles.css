@@ -213,3 +213,17 @@ h2.inline {
         margin-top: 0;
     }
 }
+
+#show-suggestion-form {
+    text-align: right;
+}
+
+#suggest-a-correction-form {
+    padding-bottom: 1em;
+}
+
+.found-an-error {
+    padding: 1em;
+    border: 1em solid #DEDEDE;
+    margin-bottom: 1em;
+}

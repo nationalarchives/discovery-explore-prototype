@@ -6,7 +6,10 @@
             <?php include('asset-details.php') ?>
             <?php include('image-viewer.php') ?>
         </div>
-        <div class="separator-illusion">&nbsp</div>
+        <div class="breather">
+            <?php include('found-an-error.php') ?>
+        </div>
+        <div class="separator-illusion">&nbsp;</div>
         <div class="breather">
             <?php include('tagging.php') ?>
         </div>
