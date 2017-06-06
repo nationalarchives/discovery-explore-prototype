@@ -18,3 +18,16 @@
 #user-contributions {
     padding-top: 0.5em;
 }
+
+h2.inline {
+    padding-top: 0.5em;
+}
+
+.research-guides {
+    padding-left: 1em;
+    margin-top: 0em;
+}
+
+.research-guides li {
+    list-style: disc;
+}
