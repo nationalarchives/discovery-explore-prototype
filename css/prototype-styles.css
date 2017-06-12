@@ -230,3 +230,17 @@ h2.inline {
 .holds-link a {
     font-size: 0.9em;
 }
+
+#show-suggestion-form {
+    text-align: right;
+}
+
+#suggest-a-correction-form {
+    padding-bottom: 1em;
+}
+
+.found-an-error {
+    padding: 1em;
+    border: 1em solid #DEDEDE;
+    margin-bottom: 1em;
+}
