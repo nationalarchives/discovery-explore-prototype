@@ -151,4 +151,3 @@
             </div>
         </div>
         <h3>Jump to any page</h3>
-        <?php scanFiles(); ?>

@@ -120,7 +120,7 @@ h2.inline {
 
 #traces-through-time-collection .label {
     font-size: .5em;
-    font-family: 'Open sans',sans-serif;
+    font-family: 'Open sans', sans-serif;
     text-transform: uppercase;
     margin: 0 1em;
     background: #fce45c;
@@ -134,7 +134,7 @@ h2.inline {
     background-color: #fce45c;
     color: #222;
     padding: .5em;
-    margin-top: 0!important
+    margin-top: 0 !important
 }
 
 #traces-through-time-collection .bounding-box {
@@ -188,7 +188,7 @@ h2.inline {
 
 @media only screen and (min-width: 768px) {
     #traces-through-time-collection .indicator-outer-container {
-        width:60%
+        width: 60%
     }
 
     #traces-through-time-collection .indicator-inner-container {
@@ -202,7 +202,7 @@ h2.inline {
 
 @media only screen and (min-width: 1024px) {
     #traces-through-time-collection .indicator-outer-container {
-        width:184px
+        width: 184px
     }
 
     #traces-through-time-collection .indicator-inner-container {
@@ -212,4 +212,21 @@ h2.inline {
     #traces-through-time-collection .indicator {
         margin-top: 0;
     }
+}
+
+.js .new-user-banner {
+    display: none;
+}
+
+.new-user-banner {
+    background-color: #FCE45C;
+    padding: 1em 0;
+}
+
+.new-user-banner p {
+    margin: 0;
+}
+
+.holds-link a {
+    font-size: 0.9em;
 }

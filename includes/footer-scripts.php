@@ -7,3 +7,7 @@
 <script src="scripts/prototype-overrides.js"></script>
 <script src="scripts/prototype-scripts.js"></script>
 <script src="scripts/footer-img.js"></script>
+
+<script>
+    window.close_link_text = <?= sprintf('"%s"', $new_user_banner['close_link_text']) ?>;
+</script>

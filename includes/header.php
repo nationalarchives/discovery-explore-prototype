@@ -1,3 +1,5 @@
+<?php echo new_user_banner($new_user_banner['heading'], $new_user_banner['description']); ?>
+
 <header role="banner" id="page-header">
     <div id="skip-link-container">
         <a href="http://discovery.nationalarchives.gov.uk/details/rd/N13980137#page_wrap">Skip to Main Content</a>
