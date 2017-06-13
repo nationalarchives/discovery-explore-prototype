@@ -8,7 +8,7 @@ $page_content = [
 ];
 
 $new_user_banner = [
-    'heading' => 'New to The National Archives\' website?',
-    'description' => 'This web page describes a record contained in The National Archives catalogue.',
-    'close_link_text' => 'Hide this, and don\'t show it again'
+    'heading' => 'You\'re on The National Archives\' website',
+    'description' => 'This page contains information about a record in The National Archives\' catalogue.',
+    'close_link_text' => 'Don\'t show this message again'
 ];
