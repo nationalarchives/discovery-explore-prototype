@@ -10,4 +10,5 @@
 
 <script>
     window.close_link_text = <?= sprintf('"%s"', $new_user_banner['close_link_text']) ?>;
+    window.close_link_and_persist_text = <?= sprintf('"%s"', $new_user_banner['close_link_and_persist_text']) ?>;
 </script>

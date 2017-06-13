@@ -24,8 +24,18 @@ var show_new_user_banner = function () {
     $new_user_banner.slideDown();
 
     $remove_link = $('<a>', {
-        'text': window.close_link_text,
+       'text': window.close_link_text,
         'href': '#',
+        'click': function (e) {
+            e.preventDefault();
+            $new_user_banner.slideUp();
+        }
+    });
+
+    $remove_link_and_persist = $('<a>', {
+        'text': window.close_link_and_persist_text,
+        'href': '#',
+        'style': 'padding-left: 1.5em;',
         'click': function (e) {
             e.preventDefault();
             tnaSetThisCookie('returning_user', 365);
@@ -33,5 +43,6 @@ var show_new_user_banner = function () {
         }
     });
 
-    $remove_link.appendTo($holds_link);
-}
+    $holds_link.append($remove_link).append($remove_link_and_persist);
+
+};

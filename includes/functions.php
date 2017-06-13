@@ -10,4 +10,3 @@ function new_user_banner($heading, $description)
         return sprintf("<div class='new-user-banner'><div class='container holds-link'><h3>%s</h3><p>%s</p></div></div>", $heading, $description);
     }
 }
-

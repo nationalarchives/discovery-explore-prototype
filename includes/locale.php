@@ -10,5 +10,6 @@ $page_content = [
 $new_user_banner = [
     'heading' => 'You\'re on The National Archives\' website',
     'description' => 'This page contains information about a record in The National Archives\' catalogue.',
-    'close_link_text' => 'Don\'t show this message again'
+    'close_link_text' => 'Hide this message',
+    'close_link_and_persist_text' => 'Do not show me this again'
 ];
