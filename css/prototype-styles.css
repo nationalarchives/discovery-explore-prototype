@@ -8,11 +8,21 @@
     border-left: none;
     padding: 0;
     background-color: transparent;
-    margin: 0;
+    margin: 1em 0 0 0;
 }
 
 #hierarchy ul {
-    margin: 0;
+    margin: 0 0 1em 0;
+}
+
+#hierarchy h1 {
+    display: inline;
+}
+
+#hierarchy h1 + a {
+    display: inline-block;
+    margin-left: 0.5em;
+    font-size: 0.9em;
 }
 
 #user-contributions {
@@ -244,3 +254,4 @@ h2.inline {
     border: 1em solid #DEDEDE;
     margin-bottom: 1em;
 }
+

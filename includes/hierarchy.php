@@ -7,4 +7,5 @@
                 School</a></li>
         <li><a href="#">HW 25 - Government Code and Cypher School: Cryptographic Studies</a></li>
     </ul>
+    <h1 class="inline"><?= $record['title'] ?></h1><a href="#">Browse from this record</a>
 </div>
