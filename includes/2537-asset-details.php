@@ -1,10 +1,10 @@
 <table class="asset-details">
-    <caption>Details of HW 25/37</caption>
+    <caption>Details of <?= $record['reference'] ?></caption>
     <tbody>
     <tr>
         <th scope="row">Reference:</th>
         <td>
-            HW 25/37
+            <?= $record['reference'] ?>
         </td>
     </tr>
     <tr>

@@ -3,8 +3,8 @@
         <div class="breather">
             <h1 class="inline"><?= $record['title'] ?></h1>
             <?php include('hierarchy.php') ?>
-            <?php include('asset-details.php') ?>
-            <?php include('image-viewer.php') ?>
+            <?php include($record['paths']['details']) ?>
+            <?php ($record['components']['image_viewer']) ? include('image-viewer.php') : ''; ?>
         </div>
         <div class="breather">
             <?php include('found-an-error.php') ?>
@@ -15,7 +15,7 @@
         </div>
     </div>
     <div class="col starts-at-full ends-at-one-third clr holding-box">
-        <?php include('delivery-option.php') ?>
+        <?php include($record['paths']['delivery_option']) ?>
         <div class="separator-illusion">&nbsp;</div>
         <div class="breather">
             <h2 class="inline"><?= $page_content['research_guides_heading'] ?></h2>

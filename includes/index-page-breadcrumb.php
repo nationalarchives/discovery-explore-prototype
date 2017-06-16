@@ -4,7 +4,7 @@
             <ul>
                 <li><a href="http://www.nationalarchives.gov.uk/">Home</a></li>
                 <li><a href="http://discovery.nationalarchives.gov.uk/" class="breadcrumbs">Discovery</a></li>
-                HW 25/37
+                <?= $record['reference'] ?>
                 </li>
             </ul>
         </nav>

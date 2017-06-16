@@ -1,4 +1,3 @@
-<?php require_once('locale.php'); ?>
 <?php require_once('functions.php'); ?>
 <head>
     <meta charset="utf-8">
