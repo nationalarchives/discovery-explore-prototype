@@ -1,6 +1,7 @@
 $(document).ready(function () {
     show_suggestion_form();
     show_new_user_banner();
+    manage_delivery_options();
 });
 
 var show_suggestion_form = function () {
@@ -24,7 +25,7 @@ var show_new_user_banner = function () {
     $new_user_banner.slideDown();
 
     $remove_link = $('<a>', {
-       'text': window.close_link_text,
+        'text': window.close_link_text,
         'href': '#',
         'click': function (e) {
             e.preventDefault();
@@ -46,3 +47,18 @@ var show_new_user_banner = function () {
     $holds_link.append($remove_link).append($remove_link_and_persist);
 
 };
+
+var manage_delivery_options = function () {
+    var $expander_link = $('.expander-link'),
+        $supplemental_content = $('.supplemental-content');
+
+    $expander_link.on('click', function (e) {
+            e.preventDefault();
+
+            var $this = $(this);
+
+            $this.toggleClass('expanded');
+            $supplemental_content.slideToggle();
+        }
+    )
+}
