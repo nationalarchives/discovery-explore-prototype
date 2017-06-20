@@ -17,7 +17,6 @@
         <?php include($record['paths']['delivery_option']) ?>
         <div class="separator-illusion">&nbsp;</div>
         <div class="breather">
-            <h2 class="inline"><?= $page_content['research_guides_heading'] ?></h2>
             <?php include('research-guides.php') ?>
         </div>
         <div class="separator-illusion">&nbsp;</div>
