@@ -57,28 +57,6 @@
             </div>
         </div>
     </div>
-    <div class="ttt-item" style="display: block;">
-        <div class="heading-container clr">
-            <h3><a class="internal" href="#">Turing, Alan</a></h3>
-            <p>Date of birth: 1864</p>
-
-        </div>
-        <div class="content-container clr">
-            <ul>
-                <li>BT 351/1/18584</li>
-                <li><span class="internal"></span>Maritime medal record</li>
-            </ul>
-            <div class="indicator">
-                <p><b>Strong</b> match</p>
-                <div class="indicator-outer-container">
-                    <div class="indicator-inner-container">
-                        <div class="confidence-bar" style="width: 92.97%">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     <div class="ttt-item" style="display: none;">
         <div class="heading-container clr">
             <h3><a class="internal" href="#">Turing, Alan</a></h3>
@@ -99,7 +77,7 @@
             </div>
         </div>
     </div>
-    <div class="ttt-item" style="display: none;">
+    <div class="ttt-item">
         <div class="heading-container clr">
             <h3><a class="internal" href="#">Turing, B</a></h3>
 
