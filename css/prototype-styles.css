@@ -25,6 +25,22 @@
     font-size: 0.9em;
 }
 
+#hierarchy li:nth-child(3) {
+    margin-left: 2em;
+}
+
+#hierarchy li:nth-child(4) {
+    margin-left: 2.7em;
+}
+
+#hierarchy li:nth-child(5) {
+    margin-left: 3.4em;
+}
+
+#hierarchy li:nth-child(6) {
+    margin-left: 4.1em;
+}
+
 #user-contributions {
     padding-top: 0.5em;
 }
