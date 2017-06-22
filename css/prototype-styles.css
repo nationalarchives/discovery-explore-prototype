@@ -245,8 +245,9 @@ h2.inline {
 }
 
 .new-user-banner {
-    background-color: #FCE45C;
+    background-color: rgb(250, 245, 171);
     padding: 1em 0;
+    margin-bottom: 1em;
 }
 
 .new-user-banner p {
