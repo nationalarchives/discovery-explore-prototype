@@ -1,4 +1,5 @@
 <?php echo new_user_banner($new_user_banner['heading'], $new_user_banner['description']); ?>
+
 <section class="row">
     <div class="col starts-at-full ends-at-two-thirds clr holding-box">
         <div class="breather">

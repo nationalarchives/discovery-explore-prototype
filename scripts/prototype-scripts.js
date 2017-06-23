@@ -19,8 +19,9 @@ var show_suggestion_form = function () {
 
 var show_new_user_banner = function () {
 
-    var $new_user_banner = $('.new-user-banner'),
-        $holds_link = $('.holds-link');
+    var $new_user_banner = $('#home_alert'),
+        $holds_link = $('.holds-link'),
+        $image_link_to_remove = $('#alert_close_button');
 
     $new_user_banner.slideDown();
 
@@ -31,6 +32,14 @@ var show_new_user_banner = function () {
             e.preventDefault();
             $new_user_banner.slideUp();
         }
+    });
+
+    // This is a temporary measure to allow for:
+    //  - the textual link to close the banner
+    //  - the image link to close the banner
+    $image_link_to_remove.on('click', function(e) {
+        e.preventDefault();
+        $new_user_banner.slideUp();
     });
 
     $remove_link_and_persist = $('<a>', {
