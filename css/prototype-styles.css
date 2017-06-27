@@ -268,19 +268,20 @@ h2.inline {
 
 .found-an-error {
     padding: 1em;
-    border: 1em solid #DEDEDE;
+    border: 1em solid #383838;
     margin-bottom: 1em;
 }
 
 .order-option-wrapper .expander-div {
-    background-color: #ececec;
     margin-bottom: -0.5em;
+    border-top: 1px solid black;
 }
 
 .order-option-wrapper .expander-link {
     font-size: 0.9em;
-    display: inline-block;
-    background-color: white;
+    display: block;
+    text-align: right;
+    background-color: #ececec;
     background-image: url(http://discovery.nationalarchives.gov.uk/Content/images/menu-collapsed-small-dark.png);
 }
 
@@ -315,4 +316,16 @@ h2.inline {
 .holds-link a {
     width: auto;
     float: none;
+}
+
+body {
+    background-color: #fff;
+}
+
+.separator-illusion {
+    background-color: #fff;
+}
+
+.order-option-wrapper {
+    border: 1px solid black;
 }
