@@ -43,7 +43,7 @@
             1945 Jan 01 - 1946 Dec 31
         </td>
     </tr>
-    <tr>
+    <tr class="held-by">
         <th scope="row">Held by:</th>
         <td>
             <a href="/details/a/A13530124" target="_blank">The National Archives, Kew</a>

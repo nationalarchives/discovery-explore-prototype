@@ -329,3 +329,16 @@ body {
 .order-option-wrapper {
     border: 1px solid black;
 }
+
+.held-by th {
+    font-weight: bold!important;
+}
+
+.held-by a {
+    background-color: rgba(252, 228, 92, .5);
+    color: black;
+    -webkit-border-radius:;
+    -moz-border-radius:;
+    border-radius: 4px;
+    padding: 0.1em 0.3em;
+}
