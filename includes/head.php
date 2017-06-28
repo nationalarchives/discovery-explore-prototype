@@ -12,7 +12,6 @@
     <link href="http://discovery.nationalarchives.gov.uk/Content/images/favicon.ico" type="image/x-icon" rel="icon">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/wireframify.css" type="text/css"/>
     <link rel="stylesheet" href="css/override-main.css"/>
     <link rel="stylesheet" href="css/prototype-styles.css"/>
     <script src="scripts/modernizr.min.js"></script>
