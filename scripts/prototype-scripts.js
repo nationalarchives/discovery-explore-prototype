@@ -1,22 +1,36 @@
 $(document).ready(function () {
-    show_suggestion_form();
     show_new_user_banner();
     manage_delivery_options();
     provide_user_research_tools();
+    $('.user-collaboration').user_collaboration();
 });
 
-var show_suggestion_form = function () {
+$.fn.user_collaboration = function (options) {
+    return this.each(function () {
+        var $this = $(this),
+            $foundAnError = $('.found-an-error', $this),
+            $showSuggestionForm = $('#show-suggestion-form', $this),
+            $whatIsTheError = $('#whatIsTheError', $this);
 
-    var $found_an_error_form = $('.found-an-error'),
-        $show_suggestion_form = $('#show-suggestion-form');
+        $foundAnError.hide();
 
-    $found_an_error_form.hide();
+        $this.on('click', '#show-suggestion-form', function (e) {
+            e.preventDefault();
+            $foundAnError.slideToggle();
+            $showSuggestionForm.hide();
+            $whatIsTheError.focus();
+        });
 
-    $show_suggestion_form.on('click', function (e) {
-        e.preventDefault();
-        $found_an_error_form.slideToggle();
-    })
+        $this.on('click', '.close-this', function (e) {
+            e.preventDefault();
+            console.log('Hide suggestion form');
+            $foundAnError.slideToggle();
+            $showSuggestionForm.show();
+            $('a', $showSuggestionForm).focus();
+        })
+    });
 };
+
 
 var show_new_user_banner = function () {
 
@@ -75,8 +89,8 @@ var manage_delivery_options = function () {
 
 var provide_user_research_tools = function () {
 
-    var select_record = function(index) {
-        (['1','2'].indexOf(index) !== -1) ? window.location.search = ['record=2536', 'record=2537'][index -1] : '';
+    var select_record = function (index) {
+        (['1', '2'].indexOf(index) !== -1) ? window.location.search = ['record=2536', 'record=2537'][index - 1] : '';
     };
 
     document.addEventListener('keyup', function (e) {

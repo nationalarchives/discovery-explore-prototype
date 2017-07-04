@@ -24,7 +24,7 @@ function new_user_banner($heading, $description)
     if (isset($_COOKIE['returning_user']) && $_COOKIE['returning_user'] === 'true') {
         return '';
     } else {
-        return sprintf('<div id="home_alert"><div class="home-alert"><a id="alert_close_button" role="button" href="#"><img src="images/close.svg"></a><div class="alert-content"><h3>%s</h3><p>%s</p><div class="holds-link">&nbsp;</div></div></div></div>', $heading, $description);
+        return sprintf('<div id="home_alert"><div class="home-alert close-this"><a id="alert_close_button" role="button" href="#"><img src="images/close.svg"></a><div class="alert-content"><h3>%s</h3><p>%s</p><div class="holds-link">&nbsp;</div></div></div></div>', $heading, $description);
     }
 }
 

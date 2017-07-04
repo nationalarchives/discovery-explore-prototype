@@ -272,6 +272,10 @@ h2.inline {
     margin-bottom: 1em;
 }
 
+.found-an-error .close-this {
+    float: right;
+}
+
 .order-option-wrapper .expander-div {
     margin-bottom: -0.5em;
     border-top: 1px solid black;
@@ -297,18 +301,18 @@ h2.inline {
     box-shadow: 0 2px 5px #ddd;
 }
 
-.home-alert .alert-content {
+.close-this .alert-content {
     padding-right: 30px;
 }
 
-.home-alert a {
+.close-this a {
     float: right;
     margin-top: 20px;
     width: 24px;
     height: 24px;
 }
 
-.home-alert img {
+.close-this img {
     width: 24px;
     height: 24px;
 }
