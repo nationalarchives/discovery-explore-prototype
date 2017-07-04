@@ -2,6 +2,7 @@ $(document).ready(function () {
     show_suggestion_form();
     show_new_user_banner();
     manage_delivery_options();
+    provide_user_research_tools();
 });
 
 var show_suggestion_form = function () {
@@ -37,7 +38,7 @@ var show_new_user_banner = function () {
     // This is a temporary measure to allow for:
     //  - the textual link to close the banner
     //  - the image link to close the banner
-    $image_link_to_remove.on('click', function(e) {
+    $image_link_to_remove.on('click', function (e) {
         e.preventDefault();
         $new_user_banner.slideUp();
     });
@@ -70,4 +71,15 @@ var manage_delivery_options = function () {
             $supplemental_content.slideToggle();
         }
     )
-}
+};
+
+var provide_user_research_tools = function () {
+
+    var select_record = function(index) {
+        (['1','2'].indexOf(index) !== -1) ? window.location.search = ['record=2536', 'record=2537'][index -1] : '';
+    };
+
+    document.addEventListener('keyup', function (e) {
+        select_record(e.key);
+    });
+};
