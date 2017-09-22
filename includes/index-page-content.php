@@ -17,7 +17,11 @@
     </div>
     <div class="col starts-at-full ends-at-one-third clr holding-box">
         <?php include($record['paths']['delivery_option']) ?>
-        <div class="separator-illusion">&nbsp;</div>
+        <div class="separator-illusion"></div>
+        <div class="breather">
+		    <?php include('more-information.php') ?>
+        </div>
+<!--        <div class="separator-illusion">&nbsp;</div>-->
         <div class="breather">
             <?php include('research-guides.php') ?>
         </div>

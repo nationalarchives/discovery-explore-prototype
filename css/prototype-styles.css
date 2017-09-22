@@ -346,3 +346,17 @@ body {
     border-radius: 4px;
     padding: 0.1em 0.3em;
 }
+
+#page-controls a.startNewSearch {
+    background: url(../images/search-gray.png) no-repeat scroll 0 0 transparent;
+    padding-left: 22px;
+}
+
+#more-information {
+    margin-top: 2em;
+}
+#more-information h2 a{
+    margin-bottom: .2em;
+    display: inline-block;
+    color: #2A5DB0;
+}
