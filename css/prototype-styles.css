@@ -17,6 +17,11 @@
 
 #hierarchy h1 {
     display: inline;
+    text-transform: lowercase;
+}
+
+#hierarchy h1::first-letter {
+    text-transform: capitalize;
 }
 
 #hierarchy h1 + a {
