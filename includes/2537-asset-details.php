@@ -1,4 +1,4 @@
-<table class="asset-details">
+<table class="asset-details hue-grey-lightest">
     <caption>Details of <?= $record['reference'] ?></caption>
     <tbody>
     <tr>

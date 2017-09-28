@@ -366,6 +366,41 @@ body {
     color: #2A5DB0;
 }
 
-/*body {*/
-    /*background-color: #2A5DB0;*/
-/*}*/
+.hue-grey-lightest {
+    background-color: #f8f8f8;
+    margin-top: 2em;
+}
+
+.asset-details th, .asset-details td {
+    border: 1px solid #ddd;
+    padding: 1.5em;
+}
+
+div#hierarchy li {
+    padding: 0.2em;
+    margin-top: .5em;
+    /*border: 1px solid #ddd;*/
+}
+
+div#hierarchy li:last-child {
+    background-color: #f3f3f3;
+    border: 1px solid #ddd;
+    padding: 1em;
+}
+
+div#hierarchy li:last-child h1 {
+    text-transform: capitalize;
+    font-size: 1.5em;
+}
+
+div#hierarchy ul > a {
+    display: block;
+    background-color: #f3f3f3;
+    padding: .4em;
+    border: 1px solid #ddd;
+}
+
+i {
+    margin-right: .5em;
+    margin-left: .5em;
+}
