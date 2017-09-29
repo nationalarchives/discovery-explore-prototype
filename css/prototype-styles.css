@@ -401,6 +401,14 @@ div#hierarchy ul > a {
 }
 
 i {
-    margin-right: .5em;
-    margin-left: .5em;
+    margin: auto .5em;
+}
+
+.more-info {
+    background-color: #405480;
+    padding: 8px;
+}
+
+.more-info a {
+    color: #fff;
 }

@@ -34,7 +34,7 @@ function render_breadcrumb($breadcrumbs)
     $return_string = '';
 
     foreach ($breadcrumbs as $crumb) {
-        $return_string .= sprintf("<li><a href='#'>%s <i class=\"fa fa-archive\" aria-hidden=\"true\"></i></a></li>", $crumb);
+        $return_string .= sprintf("<li><a href='#'>%s</a></li>", $crumb);
     }
 
     echo $return_string;
