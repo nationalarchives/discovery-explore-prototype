@@ -1,4 +1,4 @@
-<div class="accordion">
+<div class="accordion hue-grey-lightest">
     <h3 class="toggle"><a href="#">Explore the context of this record</a></h3>
 
 </div>
