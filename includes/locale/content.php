@@ -1,7 +1,8 @@
 <?php
 
 $page_content = [
-    'research_guides_heading' => 'Guidance relevant to this record'
+    'research_guides_heading' => 'Research guide relevant to this collection',
+	'more_information' => 'More information about this collection'
 ];
 
 $new_user_banner = [

@@ -1,6 +1,6 @@
 .order-option-wrapper {
     border-left: none;
-    background-color: transparent;
+    /*background-color: transparent;*/
     margin-bottom: 0;
 }
 
@@ -17,6 +17,11 @@
 
 #hierarchy h1 {
     display: inline;
+    text-transform: lowercase;
+}
+
+#hierarchy h1::first-letter {
+    text-transform: capitalize;
 }
 
 #hierarchy h1 + a {
@@ -183,10 +188,8 @@ h2.inline {
 }
 
 #traces-through-time-collection ul.key {
-    margin: 2em 0 1em;
-    border-top: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
-    padding: .4em 0
+    margin: 0 0 1em;
+    padding: .4em 0;
 }
 
 #traces-through-time-collection ul.key li {
@@ -323,7 +326,8 @@ h2.inline {
 }
 
 body {
-    background-color: #fff;
+    /*background-color: #fff;*/
+    background: #ececec;
 }
 
 .separator-illusion {
@@ -332,6 +336,7 @@ body {
 
 .order-option-wrapper {
     border: 1px solid black;
+    margin-bottom: 2.5em;
 }
 
 .held-by th {
@@ -345,4 +350,72 @@ body {
     -moz-border-radius:;
     border-radius: 4px;
     padding: 0.1em 0.3em;
+}
+
+#page-controls a.startNewSearch {
+    background: url(../images/search-gray.png) no-repeat scroll 0 0 transparent;
+    padding-left: 22px;
+}
+
+#more-information {
+    margin-top: 2em;
+}
+#more-information h2 a{
+    margin-bottom: .2em;
+    display: inline-block;
+    color: #2A5DB0;
+}
+
+.hue-grey-lightest {
+    background-color: #f8f8f8;
+    margin-top: 2em;
+}
+
+.asset-details th, .asset-details td {
+    border: 1px solid #ddd;
+    padding: 1.5em;
+}
+
+div#hierarchy li {
+    padding: 0.2em;
+    margin-top: .5em;
+    /*border: 1px solid #ddd;*/
+}
+
+/*div#hierarchy li:last-child {*/
+    /*background-color: #f3f3f3;*/
+    /*border: 1px solid #ddd;*/
+    /*padding: 1em;*/
+/*}*/
+
+div#hierarchy li:last-child h1 {
+    text-transform: capitalize;
+    font-size: 1.5em;
+}
+
+div#hierarchy ul > a {
+    /*padding: .4em;*/
+}
+
+i {
+    margin: auto .5em;
+}
+
+.more-info {
+    background-color: #405480;
+    padding: 8px;
+}
+
+.more-info a {
+    color: #fff;
+}
+
+.asset-details td > h2.inline {
+    padding: 0;
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.emphasisContent {
+    border-left: 5px solid #2D3B59;
 }

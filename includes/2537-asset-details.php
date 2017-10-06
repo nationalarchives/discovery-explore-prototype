@@ -1,6 +1,12 @@
-<table class="asset-details">
+<table class="asset-details emphasisContent">
     <caption>Details of <?= $record['reference'] ?></caption>
     <tbody>
+    <tr>
+        <th scope="row">Title:</th>
+        <td>
+		    <h2 class="inline"><?= $record['title'] ?></h2>
+        </td>
+    </tr>
     <tr>
         <th scope="row">Reference:</th>
         <td>

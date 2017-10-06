@@ -1,4 +1,4 @@
-<table class="asset-details">
+<table class="asset-details hue-grey-lightest">
     <caption>Details of HW 25/36</caption>
     <tbody>
     <tr>

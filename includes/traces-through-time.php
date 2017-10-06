@@ -1,12 +1,6 @@
 <div id="traces-through-time-collection">
     <h2 class="inline">Other possible matches</h2>
 
-    <p>
-        The following records may contain information about the person described above.
-        As the links are found by computer analysis, we cannot guarantee they are the
-        same individual or that every record in which the person appears will be listed.
-    </p>
-
     <ul class="key">
         <li><span class="internal"></span>= Held by The National Archives</li>
         <li><span class="external"></span>= Held by other organisations</li>
@@ -98,4 +92,9 @@
             </div>
         </div>
     </div>
+    <p>
+        The following records may contain information about the person described above.
+        As the links are found by computer analysis, we cannot guarantee they are the
+        same individual or that every record in which the person appears will be listed.
+    </p>
     <p class="center"><a id="show-all">Show all matches</a></p></div>

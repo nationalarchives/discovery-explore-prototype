@@ -1,13 +1,13 @@
-<div class="order-option-wrapper">
+<div class="order-option-wrapper emphasisContent">
     <section class="order-option-main breather">
         <h2 class="inline">
             Ordering and viewing options
         </h2>
         <div class="order-option-description">
             <ul id="orderInformation">
-                <li id="price"><h3>£3.50</h3></li>
                 <li id="format">Download size approximately 22 MB</li>
             </ul>
+            <p><a href="#">More ways to view this record</a></p>
         </div>
         <div class="order-buttons">
             <ul>
