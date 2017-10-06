@@ -1,6 +1,6 @@
 .order-option-wrapper {
     border-left: none;
-    /*background-color: transparent;*/
+    background-color: transparent;
     margin-bottom: 0;
 }
 
@@ -9,6 +9,7 @@
     padding: 0;
     background-color: transparent;
     margin: 1em 0 0 0;
+    display: none;
 }
 
 #hierarchy ul {
@@ -326,8 +327,8 @@ h2.inline {
 }
 
 body {
-    /*background-color: #fff;*/
-    background: #ececec;
+    background-color: #fff;
+    /*background: #ececec;*/
 }
 
 .separator-illusion {
@@ -418,4 +419,21 @@ i {
 
 .emphasisContent {
     border-left: 5px solid #2D3B59;
+}
+
+.accordion h3 {
+    padding: .5em 0;
+    background: url("../images/icon-24-accordion-open.png") no-repeat left center;
+    border-top: 1px solid #FFF;
+    border-bottom: 1px solid #DDD;
+    font-size: 1.16em;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.accordion h3 a {
+    margin-left: 1.5em;
+}
+
+.closeAccordian h3 {
+    background: url("../images/icon-24-accordion-close.png") no-repeat left center;
 }

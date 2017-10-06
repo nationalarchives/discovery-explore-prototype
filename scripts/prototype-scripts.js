@@ -1,6 +1,7 @@
 $(document).ready(function () {
     show_new_user_banner();
     manage_delivery_options();
+    related_links();
     provide_user_research_tools();
     $('.user-collaboration').user_collaboration();
 });

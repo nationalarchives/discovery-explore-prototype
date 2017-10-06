@@ -8,4 +8,17 @@
 $('a', '#holds-breadcrumb, #page-header').on('click', function(e) {
     console.log('Click default prevented by prototype-overrides.js');
     e.preventDefault();
-})
+});
+
+var related_links = function () {
+    var $accordian_a = $('.accordion a'),
+        $hierarchy = $('#hierarchy');
+
+    $accordian_a.on('click', function (e) {
+            e.preventDefault();
+            //var $this = $(this);
+            $('.accordion').toggleClass('closeAccordian');
+            $hierarchy.slideToggle('fast');
+        }
+    )
+};

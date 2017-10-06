@@ -28,11 +28,11 @@
         </section>
     </section>
     <br>
-    <div class="expander-div">
+    <!--<div class="expander-div">
         <a href="#" class="expander-link">
             More ways to view this record
         </a>
-    </div>
+    </div>-->
     <input type="hidden" id="deliveryoption" value="DigitizedDiscovery">
     <input type="hidden" id="readertype" value="offsite">
 </div>
