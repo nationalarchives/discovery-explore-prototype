@@ -16,7 +16,6 @@ var related_links = function () {
 
     $accordian_a.on('click', function (e) {
             e.preventDefault();
-            //var $this = $(this);
             $('.accordion').toggleClass('closeAccordian');
             $hierarchy.slideToggle('fast');
         }

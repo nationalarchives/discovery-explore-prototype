@@ -17,15 +17,15 @@
                 <li>
                     <a class="printThisPage" href="javascript:window.print()" title="print">Print</a>
                 </li>
-                <li>
+                <!--<li>
                     <a href="http://www.nationalarchives.gov.uk/help-with-your-research/discovery-help" target="_blank" id="helpLink">
                         Discovery help
                     </a>
-                </li>
+                </li>-->
 
 
 
-                <a href="/sign-in" id="bookmarkLink">Bookmark</a>
+                <a href="/sign-in" id="bookmarkLink" class="bookMarkIwthIcon">Bookmark</a>
             </ul>
         </nav>
     </div>

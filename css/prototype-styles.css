@@ -10,7 +10,7 @@
     /*background-color: transparent;*/
     background-color: #f8f8f8;
     margin: 0;
-    display: none;
+    display: block;
     border-left: 5px solid #2c3a58;
 }
 
@@ -357,8 +357,20 @@ body {
 }
 
 #page-controls a.startNewSearch {
-    background: url(../images/search-gray.png) no-repeat scroll 0 0 transparent;
+    background: url(../images/search-grey.png) no-repeat scroll 0 0 transparent;
     padding-left: 22px;
+}
+
+#page-controls a.printThisPage {
+    background: url(../images/print-grey.png) no-repeat scroll 0 0 transparent;
+    padding-left: 22px;
+    margin-left: 1.5em;
+}
+
+#page-controls a.bookMarkIwthIcon {
+    background: url(../images/bookmark-off.png) no-repeat scroll 0 0 transparent;
+    padding-left: 22px;
+    margin-left: 1.5em;
 }
 
 #more-information {
@@ -448,4 +460,8 @@ i {
 
 .accordion > .toggle {
     margin: 0;
+}
+
+.spacing-top {
+    margin-top: 1.5em;
 }
